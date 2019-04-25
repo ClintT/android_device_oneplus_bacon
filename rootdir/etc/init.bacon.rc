@@ -15,6 +15,7 @@
 #
 
 import /vendor/etc/init/hw/init.qcom-common.rc
+import /vendor/etc/init/hw/init.fz.rc
 
 on fs
     mount_all /vendor/etc/fstab.bacon

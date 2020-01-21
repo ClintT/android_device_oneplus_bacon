@@ -292,6 +292,14 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8974.conf
 
+# Tri-state keys
+PRODUCT_PACKAGES += \
+    KeyHandler
+
+# Touch features
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.oppo_msm8974
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic

@@ -167,6 +167,10 @@ TARGET_PROVIDES_LIBLIGHT := true
 # PHONY
 BUILD_BROKEN_PHONY_TARGETS := true
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+TARGET_USES_INTERACTION_BOOST := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 

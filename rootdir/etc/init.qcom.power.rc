@@ -67,6 +67,8 @@ on enable-low-power
     write /sys/class/kgsl/kgsl-3d0/devfreq/governor msm-adreno-tz
 
     write /dev/cpuctl/cpu.notify_on_migrate 1
+    
+    write /sys/module/synaptics_dsx_i2c/parameters/double_tap_vibration_enabled 1
 
 on charger
     write /sys/module/lpm_levels/enable_low_power/l2 2

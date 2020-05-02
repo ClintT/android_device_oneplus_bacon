@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Email
+PRODUCT_PACKAGES += \
+    Email
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/synaptics-rmi-ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics-rmi-ts.kl

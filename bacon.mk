@@ -113,6 +113,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service
+    
+# Email
+PRODUCT_PACKAGES += \
+    Email
 
 # Encryption
 PRODUCT_PACKAGES += \

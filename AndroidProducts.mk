@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_bacon.mk
+    $(LOCAL_DIR)/havoc_bacon.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_bacon-user \
-    xtended_bacon-userdebug \
-    xtended_bacon-eng
+    havoc_bacon-user \
+    havoc_bacon-userdebug \
+    havoc_bacon-eng

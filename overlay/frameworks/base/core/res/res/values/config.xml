@@ -22,6 +22,10 @@
     <!-- Button illumination -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
+    <!-- Button brightness -->
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">128</integer>
+
     <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
     <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
 

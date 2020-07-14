@@ -27,10 +27,8 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon use
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 TARGET_KERNEL_CONFIG := lineageos_bacon_defconfig
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8974
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 11.0
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-eabi-10/bin
+KERNEL_TOOLCHAIN := $(PWD)/prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-7/bin
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := bacon,A0001

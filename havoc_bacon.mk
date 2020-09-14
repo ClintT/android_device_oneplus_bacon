@@ -42,3 +42,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
 HAVOC_BUILD_TYPE := OFFICIAL
+
+HAVOC_MAINTAINER := Clint Thebus (ClintT1)
+HAVOC_GROUP_URL := https://t.me/havoc_bacon
